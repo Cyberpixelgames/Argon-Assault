@@ -11,8 +11,6 @@ GameObject:
   - component: {fileID: 4243049357039692}
   - component: {fileID: 33275231569138162}
   - component: {fileID: 23134056063201024}
-  - component: {fileID: 64119596843337590}
-  - component: {fileID: -6171099623822955389}
   m_Layer: 0
   m_Name: AlienDestroyerWhite
   m_TagString: Untagged
@@ -81,30 +79,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &64119596843337590
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960062034117444}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 5c929a1e7e6053f499c799f0b76fc965, type: 3}
---- !u!65 &-6171099623822955389
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1960062034117444}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 7.0721316, y: 4.40429, z: 18.998772}
-  m_Center: {x: 0, y: 0.79953825, z: 1.4622607}
