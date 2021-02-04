@@ -143,6 +143,7 @@ MonoBehaviour:
   deathFX: {fileID: 2050077049402345567, guid: 8e05c6b2a41e465469b357abb7cf29fa, type: 3}
   parent: {fileID: 624730705}
   ScorePerHit: 100
+  hits: 20
 --- !u!4 &201995150 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4365625331430498, guid: 0eb1dc9b0d8505f45a18313076e1e653,
@@ -170,6 +171,7 @@ MonoBehaviour:
   deathFX: {fileID: 2050077049402345567, guid: 8e05c6b2a41e465469b357abb7cf29fa, type: 3}
   parent: {fileID: 624730705}
   ScorePerHit: 100
+  hits: 20
 --- !u!1 &239058524
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,6 +551,7 @@ MonoBehaviour:
   deathFX: {fileID: 2050077049402345567, guid: 8e05c6b2a41e465469b357abb7cf29fa, type: 3}
   parent: {fileID: 624730705}
   ScorePerHit: 12
+  hits: 20
 --- !u!1 &567215694
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,6 +715,7 @@ MonoBehaviour:
   deathFX: {fileID: 2050077049402345567, guid: 8e05c6b2a41e465469b357abb7cf29fa, type: 3}
   parent: {fileID: 624730705}
   ScorePerHit: 100
+  hits: 20
 --- !u!1 &812778755
 GameObject:
   m_ObjectHideFlags: 0
@@ -922,6 +926,7 @@ MonoBehaviour:
   deathFX: {fileID: 2050077049402345567, guid: 8e05c6b2a41e465469b357abb7cf29fa, type: 3}
   parent: {fileID: 624730705}
   ScorePerHit: 100
+  hits: 20
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1083,6 +1088,7 @@ MonoBehaviour:
   deathFX: {fileID: 2050077049402345567, guid: 8e05c6b2a41e465469b357abb7cf29fa, type: 3}
   parent: {fileID: 624730705}
   ScorePerHit: 100
+  hits: 20
 --- !u!1001 &1122033110
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1474,6 +1480,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 963194228}
     m_Modifications:
+    - target: {fileID: 1357944977, guid: 192b7fe2500f5e0449f21c651bc0474c, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1357944980, guid: 192b7fe2500f5e0449f21c651bc0474c, type: 3}
       propertyPath: m_Name
       value: Gun Left
@@ -1541,6 +1551,11 @@ PrefabInstance:
       propertyPath: guns.Array.data[1]
       value: 
       objectReference: {fileID: 1587217784}
+    - target: {fileID: 7233145955453624243, guid: 192b7fe2500f5e0449f21c651bc0474c,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7233145955453624246, guid: 192b7fe2500f5e0449f21c651bc0474c,
         type: 3}
       propertyPath: m_Name
