@@ -6,6 +6,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] GameObject deathFX;
+    [SerializeField] AudioSource lazerSound;
     [SerializeField] Transform parent;
     [SerializeField] int ScorePerHit = 12;
     [SerializeField] int hits = 20;
@@ -27,6 +28,9 @@ public class Enemy : MonoBehaviour
 
     void OnParticleCollision(GameObject other)
     {
+
+        lazerSound.Play();
+
         ProcessHit();
         if (hits <= 0)
         {
