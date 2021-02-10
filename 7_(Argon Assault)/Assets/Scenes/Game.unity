@@ -11556,6 +11556,21 @@ PrefabInstance:
       propertyPath: guns.Array.data[1]
       value: 
       objectReference: {fileID: 1587217784}
+    - target: {fileID: 6663076263092643489, guid: 192b7fe2500f5e0449f21c651bc0474c,
+        type: 3}
+      propertyPath: xRange
+      value: 9.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6663076263092643489, guid: 192b7fe2500f5e0449f21c651bc0474c,
+        type: 3}
+      propertyPath: controlSpeed
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6663076263092643489, guid: 192b7fe2500f5e0449f21c651bc0474c,
+        type: 3}
+      propertyPath: yRange
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7233145955453624243, guid: 192b7fe2500f5e0449f21c651bc0474c,
         type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
