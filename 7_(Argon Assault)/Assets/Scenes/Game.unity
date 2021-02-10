@@ -11315,7 +11315,7 @@ MonoBehaviour:
   deathFX: {fileID: 2050077049402345567, guid: 8e05c6b2a41e465469b357abb7cf29fa, type: 3}
   lazerSound: {fileID: 1121329530}
   parent: {fileID: 624730705}
-  ScorePerHit: 50
+  ScorePerHit: 80
   hits: 2
 --- !u!1001 &1626355935
 PrefabInstance:
@@ -12415,7 +12415,7 @@ MonoBehaviour:
   deathFX: {fileID: 2050077049402345567, guid: 8e05c6b2a41e465469b357abb7cf29fa, type: 3}
   lazerSound: {fileID: 1121329530}
   parent: {fileID: 624730705}
-  ScorePerHit: 50
+  ScorePerHit: 80
   hits: 2
 --- !u!1001 &1741860658
 PrefabInstance:
